@@ -1,17 +1,33 @@
 {
-  "name": "tic-tac-toe-redux-patterns",
-  "description": "Tic-Tac-Toe game made using vanilla Javascript and Redux patterns",
-  "version": "0.0.0",
-  "license": "MIT",
-  "repository": "shawntaylord/tic-tac-toe-redux-patterns",
-  "authors": "Shawn Taylor <shawn.b.taylor23@gmail.com>",
+  "name": "tictactoe-redux-patterns",
+  "version": "1.0.0",
+  "description": "Tic-Tac-Toe game written in vanilla javascript using Redux patterns",
+  "main": "gulpfile.js",
   "dependencies": {
     "express": "^4.13.4",
     "socket.io": "^1.4.6"
   },
-  "scripts": {},
   "devDependencies": {
     "autoprefixer": "^6.3.6",
-    "cssnano": "^3.5.2"
-  }
+    "cssnano": "^3.5.2",
+    "gulp-postcss": "^6.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawntaylord/tic-tac-toe-redux-patterns.git"
+  },
+  "keywords": [
+    "tictactoe",
+    "redux",
+    "javascript"
+  ],
+  "author": "Shawn Taylor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shawntaylord/tic-tac-toe-redux-patterns/issues"
+  },
+  "homepage": "https://github.com/shawntaylord/tic-tac-toe-redux-patterns#readme"
 }
