@@ -9,8 +9,14 @@
   },
   "devDependencies": {
     "autoprefixer": "^6.3.6",
+    "browser-sync": "^2.12.8",
     "cssnano": "^3.5.2",
-    "gulp-postcss": "^6.1.1"
+    "gulp-jshint": "^2.0.1",
+    "gulp-nodemon": "^2.0.7",
+    "gulp-postcss": "^6.1.1",
+    "gulp-webpack": "^1.5.0",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0"
   },
   "scripts": {
     "start": "node index.js",
