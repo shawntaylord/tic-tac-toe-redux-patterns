@@ -1,0 +1,53 @@
+html {
+  background: #75717b;
+  font-size: 20px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.TTT-hdr {
+  min-height: 80px;
+  padding: 20px;
+}
+
+.TTT-hdr-score {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.TTT-hdr-player {
+  display: flex;
+  flex-direction: row;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.TTT-board-container {
+  padding: 20px;
+}
+
+.TTT-board-game {
+  border-collapse: collapse;
+  height: 600px;
+  margin: auto;
+  width: 600px;
+}
+
+td {
+  border: 4px solid #f1dbd2;
+  cursor: pointer;
+  height: calc(100% / 3);
+  transition: all 0.2s;
+  width: calc(100% / 3);
+}
+
+td:active, td:focus {
+  box-shadow: 0 0 10px 0 #4e4b52 inset;
+}

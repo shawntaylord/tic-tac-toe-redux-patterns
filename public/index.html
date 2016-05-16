@@ -6,45 +6,41 @@
     <meta name='description' content='Fill this in later'>
     <meta name='keywords' content='Fill this in later'>
     <title>TicTacToe</title>
+    <link rel='stylesheet' href='css/styles.css'>
   </head>
   <body>
-    <section class='TTT'>
-      <header class='TTT-hdr'>
-        <ul class='TTT-hdr-score'>
-          <li class='TTT-hdr-score-player TTT--active'>
-            <!-- 'X' svg -->
-            <div class='TTT-hdr-score-player-piece TTT--x'></div>
-          </li>
-          <li class='TTT-header-scoreboard-player'>
-            <!-- 'O' svg -->
-            <div class='TTT-hdr-score-player-piece TTT-o'></div>
-          </li>
-        </ul>
-      </header>
-      <div class='TTT-board-container'>
-        <table class='TTT-board-game'>
-          <tbody>
-            <tr>
-              <td class='TTT-board-game-cell' data-index='0'></td>
-              <td class='TTT-board-game-cell' data-index='1'></td>
-              <td class='TTT-board-game-cell' data-index='2'></td>
-            </tr>
-            <tr>
-              <td class='TTT-board-game-cell' data-index='3'></td>
-              <td class='TTT-board-game-cell' data-index='4'></td>
-              <td class='TTT-board-game-cell' data-index='5'></td>
-            </tr>
-            <tr>
-              <td class='TTT-board-game-cell' data-index='6'></td>
-              <td class='TTT-board-game-cell' data-index='7'></td>
-              <td class='TTT-board-game-cell' data-index='8'></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <footer class='TTT-footer'>
-        eventually socket.io stuff
-      </footer>
+    <header class='TTT-hdr'>
+      <ul class='TTT-hdr-score'>
+        <li class='TTT-hdr-player TTT--active'>
+          <div class='TTT-hdr-player-score'>0</div>
+          <div class='TTT-hdr-player-piece TTT--x'>x</div>
+        </li>
+        <li class='TTT-hdr-player'>
+          <div class='TTT-hdr-player-piece TTT-o'>o</div>
+          <div class='TTT-hdr-player-score'>0</div>
+        </li>
+      </ul>
+    </header>
+    <section class='TTT-board-container'>
+      <table class='TTT-board-game'>
+        <tbody>
+          <tr>
+            <td data-index='0'></div>
+            <td data-index='1'></div>
+            <td data-index='2'></div>
+          </tr>
+          <tr>
+            <td data-index='3'></div>
+            <td data-index='4'></div>
+            <td data-index='5'></div>
+          </tr>
+          <tr>
+            <td data-index='6'></div>
+            <td data-index='7'></div>
+            <td data-index='8'></div>
+          </tr>
+        </tbody>
+      </table>
     </section>
   </body>
 </html>
