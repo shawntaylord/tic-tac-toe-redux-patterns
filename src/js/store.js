@@ -1,3 +1,5 @@
+'use strict';
+
 // Store.js - single source of state
 var reducers = require('./reducers');
 
@@ -9,7 +11,7 @@ var subscribers = [];
 function Store() {
   this.prevState = {};
   this.state = this.update({}, {}); // initialize state object
-};
+}
 
 Store.prototype.getState = function() {
   return this.state;
@@ -28,7 +30,7 @@ Store.prototype.dispatch = function(action) {
   this.state = this.update(this.state, action);
 
   this.notifySubscribers();
-}
+};
 
 /* notifySubscribers
   When a state change/update to the store occurs, all subscibers must be
